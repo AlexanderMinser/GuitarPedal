@@ -9,6 +9,8 @@ SZ = $(TOOLS)-size
 TARGET = main
 BOOT = boot
 BUILD_DIR = build
+VPATH = src include
+CFLAGS = -Iinclude
 
 all: $(BUILD_DIR)/$(TARGET).bin
 
@@ -23,7 +25,7 @@ $(BUILD_DIR)/$(BOOT).o: $(BOOT).S | $(BUILD_DIR)
 	$(AS) $< -o $@
 
 $(BUILD_DIR)/$(TARGET).o: $(TARGET).c | $(BUILD_DIR)
-	$(CC) -c $< -o $@
+	$(CC) $(CFLAGS) -c $< -o $@
 
 $(BUILD_DIR):
 	@mkdir $@

@@ -7,7 +7,7 @@
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceRoot}",
-            "executable": "./00_Blinky/build/main.elf",
+            "executable": "./build/main.elf",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
