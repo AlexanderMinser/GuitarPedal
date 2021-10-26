@@ -34,7 +34,7 @@ void usart_init(void) {
 
 bool usart_tx(char c) {
     USART2->TDR = c;
-    delay(100);
+    delay(100U);
     if (USART2->ISR & (1 << 6)) {
         return true; //tx success
     } else {
