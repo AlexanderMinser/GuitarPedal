@@ -1,1 +1,864 @@
-The system is: Windows - 10.0.19043 - AMD64
+The target system is: Generic -  - ARM
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin/arm-none-eabi-gcc.exe 
+Build flags: -Wall;-O0;-Wno-psabi;--specs=nosys.specs;-fdata-sections;-ffunction-sections;-Wl,--gc-sections
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin/arm-none-eabi-g++.exe 
+Build flags: -Wall;-O0;-Wno-psabi;--specs=nosys.specs;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-fno-exceptions
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Ninja/ninja.exe cmTC_c353a && [1/2] Building C object CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -o C:\Users\amins\AppData\Local\Temp\ccF2F5If.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj C:\Users\amins\AppData\Local\Temp\ccF2F5If.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_c353a
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_c353a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccZ61sFo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_c353a c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_c353a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Ninja/ninja.exe cmTC_c353a && [1/2] Building C object CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -o C:\Users\amins\AppData\Local\Temp\ccF2F5If.s]
+  ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj C:\Users\amins\AppData\Local\Temp\ccF2F5If.s]
+  ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [[2/2] Linking C executable cmTC_c353a]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_c353a' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccZ61sFo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_c353a c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccZ61sFo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c353a] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_c353a.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit libs: [gcc;c;gcc;c;nosys]
+  implicit objs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  implicit dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Ninja/ninja.exe cmTC_d7328 && [1/2] Building CXX object CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -fno-exceptions -o C:\Users\amins\AppData\Local\Temp\ccDBPKyS.s
+GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\amins\AppData\Local\Temp\ccDBPKyS.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking CXX executable cmTC_d7328
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_d7328' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccVMbyr1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_d7328 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_d7328' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/backward]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/backward;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Ninja/ninja.exe cmTC_d7328 && [1/2] Building CXX object CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -fno-exceptions -o C:\Users\amins\AppData\Local\Temp\ccDBPKyS.s]
+  ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\amins\AppData\Local\Temp\ccDBPKyS.s]
+  ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [[2/2] Linking CXX executable cmTC_d7328]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_d7328' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccVMbyr1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_d7328 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\ccVMbyr1.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d7328] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_d7328.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc;c;nosys]
+  implicit objs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  implicit dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.07) 10.3.1 20210621 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+The target system is: Generic -  - ARM
+The host system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin/arm-none-eabi-gcc.exe 
+Build flags: -Wall;-O0;-Wno-psabi;--specs=nosys.specs;-fdata-sections;-ffunction-sections;-Wl,--gc-sections
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/3.21.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/bin/arm-none-eabi-g++.exe 
+Build flags: -Wall;-O0;-Wno-psabi;--specs=nosys.specs;-fdata-sections;-ffunction-sections;-Wl,--gc-sections;-fno-exceptions
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/3.21.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Ninja/ninja.exe cmTC_8a4e4 && [1/2] Building C object CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -o C:\Users\amins\AppData\Local\Temp\cc6to7nh.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj C:\Users\amins\AppData\Local\Temp\cc6to7nh.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_8a4e4
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_8a4e4' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc2ZIlFt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_8a4e4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_8a4e4' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Ninja/ninja.exe cmTC_8a4e4 && [1/2] Building C object CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -o C:\Users\amins\AppData\Local\Temp\cc6to7nh.s]
+  ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f28f1045d34d8c26ffe9f17babc9e32c]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj C:\Users\amins\AppData\Local\Temp\cc6to7nh.s]
+  ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [[2/2] Linking C executable cmTC_8a4e4]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR19DD~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-v' '-o' 'cmTC_8a4e4' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc2ZIlFt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_8a4e4 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc2ZIlFt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8a4e4] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_8a4e4.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit libs: [gcc;c;gcc;c;nosys]
+  implicit objs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  implicit dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Ninja/ninja.exe cmTC_93320 && [1/2] Building CXX object CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -fno-exceptions -o C:\Users\amins\AppData\Local\Temp\cc6DBXcW.s
+GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)
+	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\amins\AppData\Local\Temp\cc6DBXcW.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking CXX executable cmTC_93320
+Using built-in specs.
+Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE
+COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe
+Target: arm-none-eabi
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) 
+COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/;c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_93320' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc6tHsC7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_93320 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_93320' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/backward]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+  implicit include dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include/c++/10.3.1/backward;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Ninja/ninja.exe cmTC_93320 && [1/2] Building CXX object CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -D__USES_INITFINI__ C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj -O0 -Wall -Wno-psabi -version -fdata-sections -ffunction-sections -fno-exceptions -o C:\Users\amins\AppData\Local\Temp\cc6DBXcW.s]
+  ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/progra~2/gnuarm~1/102021~1.07/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ c:\progra~2\gnuarm~1\102021~1.07\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.07) version 10.3.1 20210621 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4d2ac77efec5e083ecb08185328f8af1]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\amins\AppData\Local\Temp\cc6DBXcW.s]
+  ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.07) 2.36.1.20210621]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [[2/2] Linking CXX executable cmTC_93320]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\GNUARM~1\102021~1.07\bin\AR10B2~1.EXE]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-260_20210727_1627371386/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.07' --with-multilib-list=rmprofile,aprofile]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-O0' '-Wno-psabi' '-specs=nosys.specs' '-fdata-sections' '-ffunction-sections' '-fno-exceptions' '-v' '-o' 'cmTC_93320' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  link line: [ c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe -plugin c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll -plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc6tHsC7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys --sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi -X -o cmTC_93320 c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1 -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group --start-group -lgcc -lc -lnosys --end-group c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\amins\AppData\Local\Temp\cc6tHsC7.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [--sysroot=c:\progra~2\gnuarm~1\102021~1.07\bin\../arm-none-eabi] ==> ignore
+    arg [-X] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_93320] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib]
+    arg [-Lc:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_93320.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+    arg [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o]
+  collapse obj [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  collapse library dir [c:/progra~2/gnuarm~1/102021~1.07/bin/../arm-none-eabi/lib] ==> [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit libs: [stdc++;m;gcc;c;gcc;c;nosys]
+  implicit objs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crti.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtbegin.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib/crt0.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtend.o;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1/crtn.o]
+  implicit dirs: [C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc/arm-none-eabi/10.3.1;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/lib/gcc;C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.07/arm-none-eabi/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.07) 10.3.1 20210621 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

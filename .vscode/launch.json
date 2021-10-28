@@ -7,7 +7,7 @@
         {
             "name": "Cortex Debug",
             "cwd": "${workspaceRoot}",
-            "executable": "./build/main.elf",
+            "executable": "guitar_pedal.elf",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
