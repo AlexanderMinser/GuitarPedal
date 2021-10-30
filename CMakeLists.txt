@@ -38,6 +38,7 @@ target_compile_options(${EXECUTABLE} PRIVATE
                        -Wall
                        -Werror
                        -O0
+                       -g3
                       )
 
 target_link_options(${EXECUTABLE} PRIVATE

@@ -14,11 +14,11 @@ int main (void) {
     GPIOA->MODER |= (0x01 << 10); //enable GPIOA pin 5
     //TODO - do I need to disable/feed the watchdog?
 
-    //usart_init();
-    //usart_tx('a');
+    usart_init();
     while (1) {
         // toggle on board LED
         GPIOA->ODR ^= (1 << 5);
         delay(100000U);
+        usart_tx('a');
     }
 }
