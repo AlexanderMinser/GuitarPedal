@@ -29,6 +29,7 @@ spin:
     bkpt
 
 .thumb_func
+.globl _reset_
 _reset_:
     bl main
     bkpt

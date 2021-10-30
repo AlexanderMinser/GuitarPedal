@@ -1,3 +1,0 @@
-C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/guitar_pedal.elf.dir
-C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/edit_cache.dir
-C:/projects/PersonalProjects/guitar_pedal/CMakeFiles/rebuild_cache.dir

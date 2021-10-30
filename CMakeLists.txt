@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.21.3)
 
 set(CMAKE_VERBOSE_MAKEFILE ON)
-set(CMAKE_GENERATOR "Ninja")
+set(CMAKE_GENERATOR "Ninja" CACHE INTERNAL "" FORCE)
+message("cmake gen ${CMAKE_GENERATOR}")
 
 set(CMAKE_TOOLCHAIN_FILE "C:/projects/PersonalProjects/guitar_pedal/arm-gcc-toolchain.cmake")
 
@@ -35,8 +36,8 @@ target_compile_options(${EXECUTABLE} PRIVATE
                        -fdata-sections
                        -ffunction-sections
                        -Wall
+                       -Werror
                        -O0
-                       -v
                       )
 
 target_link_options(${EXECUTABLE} PRIVATE
@@ -45,10 +46,8 @@ target_link_options(${EXECUTABLE} PRIVATE
                     -mthumb
                     -lc
                     -lm
-                    -Wl,--gc-sections
+                    -Wall
+                    -Werror
                     -Xlinker
                     -Map=${PROJECT_NAME}.map
-                    -v
                     )
-
-set_target_properties(${EXECUTABLE} PROPERTIES LINK_DEPENDS ${LINKER_FILE})

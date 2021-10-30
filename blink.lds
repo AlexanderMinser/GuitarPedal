@@ -10,6 +10,8 @@
  * 0x20000000 - 0x20004fff - SRAM (20k)
  * 0x40000000 - 0x40023400 - peripherals
  */
+ENTRY(_reset_)
+
 MEMORY
 {
    flash(RX)  : ORIGIN = 0x08000000, LENGTH = 64K
