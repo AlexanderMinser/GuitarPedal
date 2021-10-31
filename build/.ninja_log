@@ -1,7 +1,12 @@
 # ninja log v5
 2	105	6574063949789477	CMakeFiles/guitar_pedal.elf.dir/src/boot.S.obj	2dac162a93bb31ff
-5	270	6574070689363409	build.ninja	6bdec604809a5be
+5	270	6574072088852517	build.ninja	6bdec604809a5be
 7	114	6574064146362637	CMakeFiles/guitar_pedal.elf.dir/src/usart.c.obj	7a89db70f0f66ce8
 35	182	6574054700223955	CMakeFiles/guitar_pedal.elf.dir/src/util.c.obj	ac10e0c0f447cb16
 1	112	6574064146352624	CMakeFiles/guitar_pedal.elf.dir/src/main.c.obj	bbe28ffff2fdb051
 114	229	6574064147432692	guitar_pedal.elf	fbd461bd575fe90e
+1	109	6574072116661532	CMakeFiles/guitar_pedal.elf.dir/src/boot.S.obj	2dac162a93bb31ff
+14	159	6574072117158092	CMakeFiles/guitar_pedal.elf.dir/src/util.c.obj	ac10e0c0f447cb16
+6	168	6574072117253746	CMakeFiles/guitar_pedal.elf.dir/src/main.c.obj	bbe28ffff2fdb051
+1	128	6574072611169882	CMakeFiles/guitar_pedal.elf.dir/src/usart.c.obj	7a89db70f0f66ce8
+129	262	6574072612370272	guitar_pedal.elf	fbd461bd575fe90e

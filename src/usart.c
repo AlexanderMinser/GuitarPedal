@@ -8,7 +8,7 @@
 #define USART_BAUD 9600U
 #define USART_TX_BUF_SIZE 50
 
-uint8_t tx_buf[USART_TX_BUF_SIZE];
+char tx_buf[USART_TX_BUF_SIZE];
 uint8_t curr_tx_idx = 0;
 
 void usart_init(void) {
@@ -55,12 +55,12 @@ void usart_tx_str(char* s) {
     uint32_t len = strlen(s);
     if (len < 1 || len > USART_TX_BUF_SIZE) {
         return; //input too small/large
-    } else if (left_to_send > 0) {
+    } else if (curr_tx_idx > 0) {
         return; //not yet done transmitting last string
     }
     strncpy(tx_buf, s, USART_TX_BUF_SIZE);
     curr_tx_idx = 1;
-    USART2->TDR = c;
+    USART2->TDR = s[0];
 }
 
 void usart_isr(void) {
