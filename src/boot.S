@@ -1,4 +1,4 @@
-# The Cortex M3 is a thumb only processor
+# The Cortex M0 is a thumb only processor
 .cpu cortex-m0
 .syntax unified
 .thumb

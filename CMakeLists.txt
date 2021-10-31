@@ -9,7 +9,7 @@ set(CMAKE_TOOLCHAIN_FILE "C:/projects/PersonalProjects/guitar_pedal/arm-gcc-tool
 project(guitar_pedal)
 
 set(EXECUTABLE ${PROJECT_NAME}.elf)
-set(LINKER_FILE ${CMAKE_SOURCE_DIR}/blink.lds)
+set(LINKER_FILE ${CMAKE_SOURCE_DIR}/pedal.lds)
 
 enable_language(C ASM)
 set(CMAKE_C_STANDARD 99)

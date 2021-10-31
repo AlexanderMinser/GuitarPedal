@@ -18,7 +18,7 @@ int main (void) {
     while (1) {
         // toggle on board LED
         GPIOA->ODR ^= (1 << 5);
-        delay(100000U);
-        usart_tx('a');
+        delay(1000000U);
+        usart_tx_char('a');
     }
 }
