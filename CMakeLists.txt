@@ -21,6 +21,7 @@ set(SRC_FILES
     src/main.c
     src/usart.c
     src/util.c
+    src/interrupts.c
     )
 
 add_executable(${EXECUTABLE} ${SRC_FILES})

@@ -11,6 +11,14 @@
 #define GPIOD_BASE   0x48000C00U
 #define GPIOF_BASE   0x48001400U
 #define USART2_BASE  0x40004400U
+#define EXTI_BASE    0x40010400U
+
+//Base address for NVIC registers
+#define ISER_BASE    0xE000E100U
+#define ICER_BASE    0xE000E180U
+#define ISPR_BASE    0xE000E200U
+#define ICPR_BASE    0xE000E280U
+#define IPRn_BASE    0xE000E400U
 
 //RCC
 typedef struct {
@@ -65,5 +73,31 @@ typedef struct {
 } USART_t;
 
 #define USART2 ((USART_t*) USART2_BASE)
+
+//EXTI
+typedef struct {
+    uint32_t IMR;
+    uint32_t EMR;
+    uint32_t RTSR;
+    uint32_t FTSR;
+    uint32_t SWIER;
+    uint32_t PR;
+} EXTI_t;
+
+#define EXTI ((EXTI_t*) EXTI_BASE)
+
+//NVIC
+#define ISER (*((uint32_t*) ISER_BASE))
+#define ICER (*((uint32_t*) ICER_BASE))
+#define ISPR (*((uint32_t*) ISPR_BASE))
+#define ICPR (*((uint32_t*) ICPR_BASE))
+#define IPR0 (*((uint32_t*) (IPRn_BASE)))
+#define IPR1 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*1)))
+#define IPR2 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*2)))
+#define IPR3 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*3)))
+#define IPR4 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*4)))
+#define IPR5 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*5)))
+#define IPR6 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*6)))
+#define IPR7 (*((uint32_t*) (IPRn_BASE + sizeof(uint32_t)*7)))
 
 #endif

@@ -3,6 +3,8 @@
 #include "registers.h"
 #include "util.h"
 #include "usart.h"
+#include "interrupts.h"
+
 
 #define CLK_RATE 8000000U
 #define USART_BAUD 9600U
@@ -12,6 +14,9 @@ char tx_buf[USART_TX_BUF_SIZE];
 uint8_t curr_tx_idx = 0;
 
 void usart_init(void) {
+    //interrupt_set(0, usart_isr, 0);
+    interrupt_enable(INT_USART2);
+
     RCC->APB1ENR |= (1 << 17);   //enable clock to usart2
 
     //config GPIO to use USART2 
@@ -26,7 +31,7 @@ void usart_init(void) {
 //3. Program the number of stop bits in USART_CR2.
     //Reset value is okay (1 stop bit)
 //4. Enable the USART by writing the UE bit in USART_CR1 register to 1.
-    USART2->CR1 |= (1 << 0) | (1 << 3); //enable usart and tx
+    USART2->CR1 |= (1 << 0) | (1 << 3) | (1 << 7); //enable usart, tx, and tx irq
 //5. Select DMA enable (DMAT) in USART_CR3 if multibuffer communication is to take
 //place. Configure the DMA register as explained in multibuffer communication.
 //6. Set the TE bit in USART_CR1 to send an idle frame as first transmission.

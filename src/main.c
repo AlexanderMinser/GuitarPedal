@@ -4,6 +4,7 @@
 #include "registers.h"
 #include "util.h"
 #include "usart.h"
+#include "interrupts.h"
 
 int main (void) {
     RCC->CR |= (1 << 16);         //enable HSE clock

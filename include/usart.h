@@ -3,5 +3,6 @@
 
 void usart_init(void);
 void usart_tx_char(char c);
+void usart_isr(void);
 
 #endif
