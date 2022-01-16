@@ -1,0 +1,13 @@
+ENTRY(_reset_)
+
+MEMORY
+{ //TODO: double check this!!!
+   flash(RX)  : ORIGIN = 0x08000000, LENGTH = 512K
+   sram(WAIL) : ORIGIN = 0x20000000, LENGTH = 80K
+}
+
+SECTIONS
+{
+   .text : { *(.text*) } > flash
+   .bss  : { *(.bss*) } > sram
+}
