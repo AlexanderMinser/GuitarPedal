@@ -26,6 +26,8 @@ set(SRC_FILES
 
 add_executable(${EXECUTABLE} ${SRC_FILES})
 
+//TODO: add define for mcu here
+
 target_include_directories(${EXECUTABLE} PRIVATE
                           src
                           include
