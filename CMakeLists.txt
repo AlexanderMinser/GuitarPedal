@@ -17,7 +17,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
 set(SRC_FILES
-    src/boot.S
+    src/config/l152/boot_l152.S
     src/main.c
     src/usart.c
     src/util.c
@@ -25,8 +25,6 @@ set(SRC_FILES
     )
 
 add_executable(${EXECUTABLE} ${SRC_FILES})
-
-//TODO: add define for mcu here
 
 target_include_directories(${EXECUTABLE} PRIVATE
                           src
