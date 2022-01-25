@@ -48,7 +48,7 @@
 .word   spin        /*A4 TIM9 */
 .word   spin        /*A8 TIM10 */
 .word   spin        /*AC TIM11 */
-.word   usart_isr   /*TIM2 */
+.word   spin /*usart_isr   TIM2 */
 .word   spin        /*TIM3*/
 .word   spin        /*TIM4 */
 .word   spin        /*I2C1_EV */

@@ -3,10 +3,10 @@
 #include "registers.h"
 #include "util.h"
 #include "usart.h"
-#include "interrupts.h"
+//#include "interrupts.h"
 
 
-#define CLK_RATE 8000000U
+#define CLK_RATE 8000000U //f0r8
 #define USART_BAUD 9600U
 #define USART_TX_BUF_SIZE 50
 
@@ -15,23 +15,23 @@ uint8_t curr_tx_idx = 0;
 
 void usart_init(void) {
     //interrupt_set(0, usart_isr, 0);
-    interrupt_enable(INT_USART2);
+    //interrupt_enable(INT_USART2);
 
     RCC->APB1ENR |= (1 << 17);   //enable clock to usart2
 
     //config GPIO to use USART2 
     //setup UART TX pin
-    GPIOA->MODER |= (0x02 << 4);
-    GPIOA->AFRL |= (0x01 << 8);
+    GPIOA->MODER |= (0x02 << 4);//(0x02 << 4);
+    GPIOA->AFRL |= (7 << 8);//(0x01 << 8);
     
 //1. Program the M bit in USART_CR1 to define the word length.
     //Reset value is okay (1 start bit, 8 data bits, n stop bits)
 //2. Select the desired baud rate using the USART_BRR register.
-    USART2->BRR =  CLK_RATE / USART_BAUD;
+    USART2->BRR =  (CLK_RATE / (USART_BAUD * 8 * 2)) << 4;
 //3. Program the number of stop bits in USART_CR2.
     //Reset value is okay (1 stop bit)
 //4. Enable the USART by writing the UE bit in USART_CR1 register to 1.
-    USART2->CR1 |= (1 << 0) | (1 << 3) | (1 << 7); //enable usart, tx, and tx irq
+    USART2->CR1 |= USART_CR1_UE | USART_CR1_TE | USART_CR1_TXEIE; //enable usart, tx, and tx irq
 //5. Select DMA enable (DMAT) in USART_CR3 if multibuffer communication is to take
 //place. Configure the DMA register as explained in multibuffer communication.
 //6. Set the TE bit in USART_CR1 to send an idle frame as first transmission.
@@ -46,11 +46,11 @@ void usart_init(void) {
 }
 
 void usart_tx_char(char c) {
-    if (USART2->ISR & (1 << 6)) {
-        USART2->ICR |= (1 << 6);
-        USART2->TDR = c;
+    if (USART2->SR & USART_SR_TC) {
+       // USART2->ICR |= (1 << 6);
+        USART2->DR = c;
     } else {
-        USART2->TDR = c;
+        USART2->DR = c;
     }
 }
 
@@ -65,12 +65,12 @@ void usart_tx_str(char* s) {
     }
     strncpy(tx_buf, s, USART_TX_BUF_SIZE);
     curr_tx_idx = 1;
-    USART2->TDR = s[0];
+    USART2->DR = s[0];
 }
 
 void usart_isr(void) {
     if (tx_buf[curr_tx_idx] != '\0') {
-        USART2->TDR = tx_buf[curr_tx_idx];
+        USART2->DR = tx_buf[curr_tx_idx];
         curr_tx_idx++;
     } else {
         curr_tx_idx = 0;

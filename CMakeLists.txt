@@ -9,7 +9,7 @@ set(CMAKE_TOOLCHAIN_FILE "C:/projects/PersonalProjects/guitar_pedal/arm-gcc-tool
 project(guitar_pedal)
 
 set(EXECUTABLE ${PROJECT_NAME}.elf)
-set(LINKER_FILE ${CMAKE_SOURCE_DIR}/pedal.lds)
+set(LINKER_FILE ${CMAKE_SOURCE_DIR}/src/config/l152/pedal_l152.lds)
 
 enable_language(C ASM)
 set(CMAKE_C_STANDARD 99)
@@ -21,7 +21,9 @@ set(SRC_FILES
     src/main.c
     src/usart.c
     src/util.c
-    src/interrupts.c
+    #src/interrupts.c
+    src/gpio.c
+    src/rcc.c
     )
 
 add_executable(${EXECUTABLE} ${SRC_FILES})
@@ -29,6 +31,8 @@ add_executable(${EXECUTABLE} ${SRC_FILES})
 target_include_directories(${EXECUTABLE} PRIVATE
                           src
                           include
+                          include/config
+                          include/config/l152
                           )
 
 target_compile_options(${EXECUTABLE} PRIVATE
