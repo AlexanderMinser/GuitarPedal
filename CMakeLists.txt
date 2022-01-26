@@ -18,12 +18,12 @@ set(CMAKE_C_EXTENSIONS OFF)
 
 set(SRC_FILES
     src/config/l152/boot_l152.S
-    src/main.c
     src/usart.c
     src/util.c
     #src/interrupts.c
     src/gpio.c
     src/rcc.c
+    src/main.c
     )
 
 add_executable(${EXECUTABLE} ${SRC_FILES})

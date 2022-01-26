@@ -7,6 +7,7 @@
 
 
 #define CLK_RATE 8000000U //f0r8
+//#define CLK_RATE 2097000U
 #define USART_BAUD 9600U
 #define USART_TX_BUF_SIZE 50
 
@@ -27,7 +28,7 @@ void usart_init(void) {
 //1. Program the M bit in USART_CR1 to define the word length.
     //Reset value is okay (1 start bit, 8 data bits, n stop bits)
 //2. Select the desired baud rate using the USART_BRR register.
-    USART2->BRR =  (CLK_RATE / (USART_BAUD * 8 * 2)) << 4;
+    USART2->BRR |=  ((CLK_RATE / (USART_BAUD * 8 * 2)) << 4) | 1;
 //3. Program the number of stop bits in USART_CR2.
     //Reset value is okay (1 stop bit)
 //4. Enable the USART by writing the UE bit in USART_CR1 register to 1.

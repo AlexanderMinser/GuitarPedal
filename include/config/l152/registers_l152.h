@@ -1,5 +1,5 @@
-#ifndef REGISTERS_L151_H_
-#define REGISTERS_L151_H_
+#ifndef REGISTERS_L152_H_
+#define REGISTERS_L152_H_
 
 #include <stdint.h>
 

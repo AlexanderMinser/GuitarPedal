@@ -3,7 +3,7 @@
 .syntax unified
 .thumb
 
-.word   0x20004000  /* stack top address 
+.word   0x20014000  /* stack top address 
                        TODO: double check this for new processor*/
 .word   _reset_     /* 1 Reset */
 .word   spin        /* 2 NMI */
