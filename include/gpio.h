@@ -6,6 +6,10 @@
     #define GPIO_MODER5(x) ((x) << 10)
 
     #define GPIO_ODR5 (1 << 5)
+#elif (CONFIG_MCU_TARGET == CONFIG_MCU_F411)
+    #define GPIO_MODER5(x) ((x) << 10)
+
+    #define GPIO_ODR5 (1 << 5)
 #else
     #error "Target MCU not supported!"
 #endif

@@ -16,7 +16,7 @@ int main (void) {
 
     rcc_init();
     gpio_init();
-    usart_init();
+    //usart_init();
 
     while (1) {
       // toggle on board LED

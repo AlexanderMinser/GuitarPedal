@@ -9,6 +9,8 @@
     #include "registers_l152.h"
 #elif (CONFIG_MCU_TARGET == CONFIG_MCU_F302)
     #include "registers_f302.h"
+#elif (CONFIG_MCU_TARGET == CONFIG_MCU_F411)
+    #include "registers_f411.h"
 #else
     #error "No processor selected!"
 #endif
