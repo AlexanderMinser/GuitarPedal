@@ -6,7 +6,10 @@
 //#include "interrupts.h"
 
 
-#define CLK_RATE 8000000U //f0r8
+//#define CLK_RATE 8000000U //f0r8
+#if (CONFIG_TARGET_MCU == CONFIG_TARGET_F411)
+    #define CLK_RATE  8000000U
+#endif
 //#define CLK_RATE 2097000U
 #define USART_BAUD 9600U
 #define USART_TX_BUF_SIZE 50
