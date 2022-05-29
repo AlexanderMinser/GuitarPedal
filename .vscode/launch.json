@@ -11,7 +11,7 @@
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "openocd",
-            "configFiles": ["C:/OpenOCD/xpack-openocd-0.11.0-2/scripts/board/st_nucleo_l1.cfg"]
+            "configFiles": ["C:/OpenOCD/xpack-openocd-0.11.0-2/scripts/board/st_nucleo_f4.cfg"]
         }
     ]
 }

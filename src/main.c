@@ -6,6 +6,7 @@
 #include "util.h"
 #include "gpio.h"
 #include "usart.h"
+#include "i2s.h"
 //#include "interrupts.h"
 extern int8_t bulink;
 extern int8_t blink;
@@ -15,15 +16,17 @@ int main (void) {
     //TODO - do I need to disable/feed the watchdog?
 
     rcc_init();
-    gpio_init();
+    //gpio_init();
     usart_init();
+    i2s_init();
 
     while (1) {
       // toggle on board LED
-      toggle_led();
+      //toggle_led();
       delay(100000U);
 
       usart_tx_char('a');
+      i2s_read();
       delay(1000U);
     }
 }

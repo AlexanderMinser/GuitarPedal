@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "registers_l152.h": "c",
+        "config.h": "c",
+        "registers_f411.h": "c"
+    }
+}

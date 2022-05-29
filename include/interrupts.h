@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 typedef enum {
-    INT_USART2 = 28
+    INT_USART2 = 38//28
 } interrupt_t;
 
 void interrupt_init(void);

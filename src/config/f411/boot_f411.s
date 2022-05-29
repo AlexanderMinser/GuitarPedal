@@ -1,5 +1,5 @@
 # The Cortex M3 is a thumb processor
-.cpu cortex-m3
+.cpu cortex-m4
 .syntax unified
 .thumb
 
@@ -48,7 +48,7 @@
 .word   spin        /*A4 TIM9 */
 .word   spin        /*A8 TIM10 */
 .word   spin        /*AC TIM11 */
-.word   spin /*usart_isr   TIM2 */
+.word   spin        /*TIM2 */
 .word   spin        /*TIM3*/
 .word   spin        /*TIM4 */
 .word   spin        /*I2C1_EV */
@@ -58,7 +58,7 @@
 .word   spin        /*SPI1 */
 .word   spin        /*SPI2 */
 .word   spin        /*USART1 */
-.word   spin        /*USART2 */
+.word   usart_isr        /*USART2 */
 .word   spin        /*USART3 */
 .word   spin        /*EXTI5_10 */
 .word   spin        /*RTC_Alarm */

@@ -20,7 +20,8 @@ set(SRC_FILES
     src/config/f411/boot_f411.S
     src/usart.c
     src/util.c
-    #src/interrupts.c
+    src/interrupts.c
+    src/i2s.c
     src/gpio.c
     src/rcc.c
     src/main.c

@@ -21,6 +21,8 @@
 
     #define RCC_AHB1ENR_GPIOAEN (1 << 0)
 
+    #define RCC_APB2ENR_SPI1EN (1 << 12) //enable SPI1
+
     #define RCC_CFGR_SW_HSE (1 << 0)
 #else 
     #error "Target MCU not supported!"
