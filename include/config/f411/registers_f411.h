@@ -4,9 +4,12 @@
 #include <stdint.h>
 
 #define GPIOA_BASE  (0x40020000U)
+#define GPIOB_BASE  (0x40020400U)
+#define GPIOC_BASE  (0x40020800U)
 #define RCC_BASE    (0x40023800U)
 #define USART2_BASE (0x40004400U)
 #define SPI1_BASE   (0x40013000U)
+#define SPI3_BASE   (0x40003C00U)
 
 
 // RCC
@@ -60,6 +63,8 @@ typedef struct {
 } GPIO_t;
 
 #define GPIOA ((GPIO_t*) GPIOA_BASE)
+#define GPIOB ((GPIO_t*) GPIOB_BASE)
+#define GPIOC ((GPIO_t*) GPIOC_BASE)
 
 
 // USART
@@ -87,9 +92,10 @@ typedef struct {
     uint32_t TXCRCR;
     uint32_t I2SCFGR;
     uint32_t I2SPR;
-} SPI_t
+} SPI_t;
 
 #define SPI1 ((SPI_t*) SPI1_BASE) 
+#define SPI3 ((SPI_t*) SPI3_BASE)
 
 
 //NVIC
