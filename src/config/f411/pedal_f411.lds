@@ -10,4 +10,5 @@ SECTIONS
 {
    .text : { *(.text*) } > flash
    .bss  : { *(.bss*) } > sram
+   .data : { *(.data*) } > sram
 }

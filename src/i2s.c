@@ -6,8 +6,6 @@
 #include "interrupts.h"
 #include "dma.h"
 
-//TODO: figure out why I can't write to this
-uint32_t i2s_data = 0xffffffff;
 uint16_t i2s_buffer[500] = {0};
 
 void i2s_dma_init(void);
@@ -78,7 +76,7 @@ void i2s_init(void) {
     //setup DMA
     //i2s_dma_init();
     
-    SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
+    //SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
 }
 
 //Note: this should only be called from i2s_init()
@@ -112,7 +110,7 @@ void i2s_dma_isr(void) {
     //TODO: clear isr flag?
 }
 
-void i2s_read(void) {
+uint32_t i2s_read(void) {
 
 }
 

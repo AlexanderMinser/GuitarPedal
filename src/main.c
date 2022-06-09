@@ -31,6 +31,7 @@ int main (void) {
       delay(10000000U);
 
       //cd uint32_t clk = RCC->PLLI2SCFGR;
-      //usart_tx_char(clk);
+      uint32_t i2s_stuff = i2s_read();
+      usart_tx_char(i2s_stuff);
     }
 }

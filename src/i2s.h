@@ -1,6 +1,7 @@
 #ifndef I2S_H_
 #define I2S_H_
 
+#include <stdint.h>
 #include "config.h"
 
 #if (CONFIG_TARGET_MCU == CONFIG_TARGET_F411)
@@ -24,7 +25,8 @@
 #endif /* CONFIG_TARGET_MCU */
 
 void i2s_init(void);
-void i2s_read(void);
+uint32_t i2s_read(void);
 void i2s_isr(void);
 void i2s_dma_isr(void);
+
 #endif /* I2S_H_ */
