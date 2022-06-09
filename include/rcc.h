@@ -26,8 +26,8 @@
     #define RCC_AHB1ENR_GPIOAEN (1 << 0)
     #define RCC_AHB1ENR_GPIOBEN (1 << 1)
     #define RCC_AHB1ENR_GPIOCEN (1 << 2)
-
     #define RCC_APB1ENR_SPI3EN (1 << 15)
+    #define RCC_AHB1ENR_DMA1EN (1 << 21)
 
     #define RCC_APB2ENR_SPI1EN (1 << 12) //enable SPI1
 
