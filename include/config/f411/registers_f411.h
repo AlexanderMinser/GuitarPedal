@@ -10,7 +10,7 @@
 #define USART2_BASE (0x40004400U)
 #define SPI1_BASE   (0x40013000U)
 #define SPI3_BASE   (0x40003C00U)
-#define DMA1_BASE   (0x40026400U)
+#define DMA1_BASE   (0x40026000U)
 
 
 // RCC

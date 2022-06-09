@@ -4,9 +4,13 @@
 #include "gpio.h"
 #include "util.h"
 #include "interrupts.h"
+#include "dma.h"
 
 //TODO: figure out why I can't write to this
 uint32_t i2s_data = 0xffffffff;
+uint32_t i2s_buffer[300] = {0};
+
+void i2s_dma_init();
 
 void i2s_init(void) {
     /*-PA15  = I2S3_WS
@@ -72,12 +76,27 @@ void i2s_init(void) {
     SPI3->CR2 |= SPI_CR2_RXNEIE; //enable rx buffer not empty irq
 
     //setup DMA
-    
+    i2s_dma_init();
     
     SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
-    //i2s_data = SPI3->DR;
 }
 
+//Note: this should only be called from i2s_init()
+void i2s_dma_init(void) {
+    DMA1->S0CR |= DMA_SxCR_PL_HIGH; //set stream priority to high
+    DMA1->S0CR |= DMA_SxCR_MSIZE_HALF_WORD; //set data size to half word (16 bit)
+    DMA1->S0CR |= DMA_SxCR_MINC; //increment memory pointer each transfer
+    //TODO: verify circular mode setup correctly!!
+    DMA1->S0CR |= DMA_SxCR_CIRC; //enable circular mode
+
+    DMA1->S0PAR |= (uint32_t)(&(SPI3->DR)); //peripheral address for transfers
+    DMA1->S0M0AR |= (uint32_t) (&i2s_buffer); //memory addr for transfers
+
+    //TODO: may need to set this at end of each transfer
+    DMA1->S0CR |= DMA_SxCR_EN; //enable DMA
+}
+
+//TODO: probably won't need this if using DMA
 void i2s_isr(void) {
     uint32_t d_in = 0;
     if (SPI3->SR & SPI_SR_RXNE) { //if rx buf not empty
@@ -85,3 +104,12 @@ void i2s_isr(void) {
     }
     i2s_data = d_in;
 }
+
+void i2s_dma_isr(void) {
+
+}
+
+void i2s_read(void) {
+    
+}
+

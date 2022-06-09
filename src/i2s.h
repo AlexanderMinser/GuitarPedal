@@ -24,5 +24,7 @@
 #endif /* CONFIG_TARGET_MCU */
 
 void i2s_init(void);
+void i2s_read(void);
 void i2s_isr(void);
+void i2s_dma_isr(void);
 #endif /* I2S_H_ */
