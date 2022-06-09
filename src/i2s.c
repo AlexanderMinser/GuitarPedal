@@ -70,6 +70,9 @@ void i2s_init(void) {
 
     NVIC_ISER_1 |= NVIC_ISER_SPI3;
     SPI3->CR2 |= SPI_CR2_RXNEIE; //enable rx buffer not empty irq
+
+    //setup DMA
+    
     
     SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
     //i2s_data = SPI3->DR;
