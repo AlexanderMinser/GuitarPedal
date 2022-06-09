@@ -3,7 +3,9 @@
 #include "registers.h"
 #include "gpio.h"
 #include "util.h"
+#include "interrupts.h"
 
+//TODO: figure out why I can't write to this
 uint32_t i2s_data = 0xffffffff;
 
 void i2s_init(void) {
@@ -30,10 +32,10 @@ void i2s_init(void) {
     SPI3->I2SCFGR |= SPI_I2SCFGR_I2SCFG(3); //select i2s master rx mode
     //TODO: configure PCMSYNC 
 
-    SPI3->I2SCFGR |= SPI_I2SCFGR_I2SSTD(3); //enable PCM standard (TODO:verify this!)
+    SPI3->I2SCFGR |= SPI_I2SCFGR_I2SSTD(0); //enable PCM standard (TODO:verify this!) (I2S phillips std actually)
     SPI3->I2SCFGR |= SPI_I2SCFGR_DATALEN(1); //set data len to 24 bits
     
-    // setup bitclockRCC_CFGR_MCO2_HSE
+    // setup bitclock
     RCC->PLLI2SCFGR &= ~(0x3F);
     RCC->PLLI2SCFGR |= RCC_PLLI2SCFGR_PLLI2SM(8); //divide clock down to 1MHz
 
@@ -47,7 +49,7 @@ void i2s_init(void) {
     //Test code
     RCC->AHB1ENR |= RCC_AHB1ENR_GPIOCEN; //enable GPIOC
     GPIOC->MODER |= GPIO_MODER9(2); //set PC9 to alternate func
-    RCC->CFGR |= RCC_CFGR_MCO2_PLLI2S; //set MCO2 output as PLLI2S
+    //RCC->CFGR |= RCC_CFGR_MCO2_SYS; //set MCO2 output as PLLI2S
 
     //more bitclock setup
     SPI3->I2SPR |= SPI_I2SPR_I2SDIV(6);
@@ -66,12 +68,17 @@ void i2s_init(void) {
         delay(100);
     }
 
-    // power up codec(??)
+    NVIC_ISER_1 |= NVIC_ISER_SPI3;
+    SPI3->CR2 |= SPI_CR2_RXNEIE; //enable rx buffer not empty irq
+    
     SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
+    //i2s_data = SPI3->DR;
 }
 
-void i2s_read(void) {
+void i2s_isr(void) {
+    uint32_t d_in = 0;
     if (SPI3->SR & SPI_SR_RXNE) { //if rx buf not empty
-        i2s_data = SPI3->DR; //read data from rx register
+        d_in = (SPI3->DR & 0x0000ffffu); //read data from rx register
     }
+    i2s_data = d_in;
 }

@@ -4,6 +4,8 @@
 #include "config.h"
 
 #if (CONFIG_TARGET_MCU == CONFIG_TARGET_F411)
+    #define SPI_CR2_RXNEIE (1 << 6)
+
     #define SPI_SR_RXNE            (1 << 0) //Receive buffer not empty
 
     #define SPI_I2SCFGR_I2SMOD     (1 << 11)  //I2S mode selection
@@ -22,5 +24,5 @@
 #endif /* CONFIG_TARGET_MCU */
 
 void i2s_init(void);
-void i2s_read(void);
+void i2s_isr(void);
 #endif /* I2S_H_ */

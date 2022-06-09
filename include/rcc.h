@@ -32,11 +32,16 @@
     #define RCC_APB2ENR_SPI1EN (1 << 12) //enable SPI1
 
     #define RCC_CFGR_SW_HSE (1 << 0)
+    #define RCC_CFGR_SW_PLL (1 << 1)
+    #define RCC_CFGR_MCO2PRE(x) ((x) << 27)
     #define RCC_CFGR_MCO2_HSE (2 << 30)
     #define RCC_CFGR_MCO2_PLLI2S (1 << 30)
+    #define RCC_CFGR_MCO2_PLL (3 << 30)
 
     #define RCC_PLLCFGR_PLLSRC (1 << 22)
+    #define RCC_PLLCFGR_PLLM(x) ((x) << 0)
     #define RCC_PLLCFGR_PLLN(x) ((x) << 6)
+    #define RCC_PLLCFGR_PLLP(x) ((x) << 16)
 
     #define RCC_PLLI2SCFGR_PLLI2SM(x) ((x) << 0)
     #define RCC_PLLI2SCFGR_PLLI2SN(x) ((x) << 6)

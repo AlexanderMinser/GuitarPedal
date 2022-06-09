@@ -1,8 +1,9 @@
-# The Cortex M3 is a thumb processor
+# The Cortex M4 is a thumb processor
 .cpu cortex-m4
 .syntax unified
 .thumb
 
+/*Don't trust these isr comments!*/
 .word   0x20020000  /* stack top address 
                        TODO: double check this for new processor*/
 .word   _reset_     /* 1 Reset */
@@ -59,13 +60,18 @@
 .word   spin        /*SPI2 */
 .word   spin        /*USART1 */
 .word   usart_isr        /*USART2 */
-.word   spin        /*USART3 */
+.word   spin        /*reserved */
 .word   spin        /*EXTI5_10 */
 .word   spin        /*RTC_Alarm */
-.word   spin        /*USB_FS_WKUP */
-.word   spin        /*TIM6 */
-.word   spin        /*TIM7 */
-.word   spin        /* */
+.word   spin        /*OTG_FS_WKUP */
+.rept   4
+.word   spin        /*reserved*/
+.endr
+.word   spin        /*DMA1_Stream7*/
+.word   spin        /*reserved */
+.word   spin        /*SDIO */
+.word   spin        /*TIM5 */
+.word   i2s_isr     /*SPI3*/
 .word   spin        /* */
 .word   spin        /* */
 .word   spin        /* */
