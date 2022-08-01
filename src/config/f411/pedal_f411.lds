@@ -12,3 +12,17 @@ SECTIONS
    .bss  : { *(.bss*) } > sram
    .data : { *(.data*) } > sram
 }
+
+/*
+.bss : 
+{
+   . = ALIGN(4);
+   __START_BSS = .;
+   __bss_start__ = .;
+   *(.bss)
+   *(.bss*)
+   *(COMMON)
+   . = ALIGN(4);
+   __bss_end__ = .;
+   __END_BSS = .;
+} > m_data */

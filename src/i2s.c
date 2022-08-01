@@ -6,7 +6,9 @@
 #include "interrupts.h"
 #include "dma.h"
 
-uint16_t i2s_buffer[500] = {0};
+uint16_t i2s_buffer[32];
+uint32_t i2s_data;
+uint32_t curr_idx = 1;
 
 void i2s_dma_init(void);
 
@@ -61,7 +63,7 @@ void i2s_init(void) {
 
     //RCC->CR |= RCC_CR_PLLON; //enable PLL clock
     //while (!(RCC->CR & RCC_CR_PLLRDY)) {
-    //    delay(1000U);4
+    //    delay(1000U);
     //}
 
     RCC->CR |= RCC_CR_PLLI2SON;          //enable PLLI2S clock
@@ -76,7 +78,7 @@ void i2s_init(void) {
     //setup DMA
     //i2s_dma_init();
     
-    //SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
+    SPI3->I2SCFGR |= SPI_I2SCFGR_I2SE;   //enable I2S
 }
 
 //Note: this should only be called from i2s_init()
@@ -102,7 +104,14 @@ void i2s_isr(void) {
     if (SPI3->SR & SPI_SR_RXNE) { //if rx buf not empty
         d_in = (SPI3->DR & 0x0000ffffu); //read data from rx register
     }
+
     i2s_data = d_in;
+
+    //i2s_buffer[curr_idx] = d_in;
+    //curr_idx++;
+    //if (curr_idx > 32) {
+    //    curr_idx = 0;
+    //}
     //TODO: clear isr flag?
 }
 
@@ -111,6 +120,6 @@ void i2s_dma_isr(void) {
 }
 
 uint32_t i2s_read(void) {
-
+    return 0;
 }
 

@@ -11,13 +11,10 @@
 
 //TODO: to get globals to work, initialize the bss segment to 0
 int main (void) {
-
-    //TODO - do I need to disable/feed the watchdog?
-
     rcc_init();
-    gpio_init();
+    led_init();
     usart_init();
-    i2s_init();
+    //i2s_init();
 
     RCC->CR |= RCC_CR_PLLON;
     while(!(RCC->CR & RCC_CR_PLLRDY)) {

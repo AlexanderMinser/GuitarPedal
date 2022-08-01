@@ -92,5 +92,19 @@ spin:
 .thumb_func
 .globl _reset_
 _reset_:
+    /* BSS setup */
+    @ldr r1, = __bss_start__
+    @ldr r2, = __bss_end__
+
+    @movs r0, 0
+
+@.LC2:
+    @cmp r1, r2
+    @itt lt
+    @strlt r0, [r1], #4
+    @blt .LC2
+
+    /* BSS end */
+
     bl main
     bkpt
