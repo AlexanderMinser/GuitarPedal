@@ -10,9 +10,24 @@ SECTIONS
 {
    .text : { *(.text*) } > flash
    .bss  : { *(.bss*) } > sram
-   .data : { *(.data*) } > sram
-}
+   /*.data : { *(.data*) } > sram*/
 
+   /* Used by the startup to initialize data */
+   _sidata = LOADADDR(.data);
+
+   /* Initialized data sections into "RAM" Ram type memory */
+   .data : 
+   {
+     . = ALIGN(4);      /* Alignment. */
+     _sdata = .;        /* create a global symbol at data start */
+     *(.data)           /* .data sections */
+     *(.data*)          /* .data* sections */
+
+     . = ALIGN(4);      /* Alignment. */
+     _edata = .;        /* define a global symbol at data end */
+  
+   } >sram AT> flash
+}
 /*
 .bss : 
 {

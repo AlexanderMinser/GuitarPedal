@@ -22,7 +22,7 @@ set(SRC_FILES
     src/util.c
     src/interrupts.c
     src/i2s.c
-    src/gpio.c
+    src/led.c
     src/rcc.c
     src/main.c
     )

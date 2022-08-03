@@ -92,19 +92,21 @@ spin:
 .thumb_func
 .globl _reset_
 _reset_:
-    /* BSS setup */
-    @ldr r1, = __bss_start__
-    @ldr r2, = __bss_end__
+  movs  r1, #0
+  b LoopCopyDataInit
 
-    @movs r0, 0
+CopyDataInit:
+    ldr r3, =_sidata
+    ldr r3, [r3, r1]
+    str r3, [r0, r1]
+    adds    r1, r1, #4
 
-@.LC2:
-    @cmp r1, r2
-    @itt lt
-    @strlt r0, [r1], #4
-    @blt .LC2
-
-    /* BSS end */
+LoopCopyDataInit:
+    ldr r0, =_sdata
+    ldr r3, =_edata
+    adds    r2, r0, r1
+    cmp r2, r3
+    bcc CopyDataInit
 
     bl main
     bkpt
